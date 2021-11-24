@@ -1,0 +1,158 @@
+.nav-link.active{
+    border-bottom: 2px solid #999;
+}
+
+.nav-link{
+    padding: 7px 15px 5px 0 !important;
+    margin-right: 20px;
+}
+
+.background-gradient{
+    height: 90vh;
+    background-image:linear-gradient(#fff 70%, #ddd 100%);
+}
+
+.catch-line{
+    font-size: 12px;
+    margin: 0;
+    color:#777
+}
+
+.type-text{
+    font-size:40px ;
+    font-weight: 700;
+}
+
+.para{
+    width: 80%;
+    margin-bottom: 60px;
+    color:#777
+}
+
+.video-section{
+    background-color: #c5c5c5;
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+
+
+.play-icon{
+    position: absolute;
+    background: #000;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 11px;
+    bottom: -25px;
+    left: calc(50% - 20px);
+}
+
+.play-icon .fa{
+    color: #fff;
+    font-size: 12px;
+}
+
+.page-title-section{
+    margin-top:50px ;
+}
+
+.chair1-box{
+    background-image: linear-gradient(45deg, #ccc , #f2f2f2);
+}
+
+.chair-img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    top: 20px;
+    /* padding: 20px; */
+}
+
+.chair1-section{
+    position: relative;
+}
+
+.chair1-box{
+    position: absolute;
+    width: 100%;
+    height: 65vh;
+    position: absolute;
+    bottom: 15px;
+}
+
+.chair2-box{
+    position: absolute;
+    width: 100%;
+    height: 65vh;
+    position: absolute;
+    bottom: -20px;
+}
+.chair-info{
+    z-index: 2;
+    position: relative;
+    padding: 25px;
+}
+
+.char-description{
+    margin-top:55px
+}
+
+
+.char-description .chart-para{
+    font-size: 12px;
+    margin:0
+}
+
+
+.chair2-info{
+    background-image: url('../../assets/images/image2-bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.mt-0{
+    margin-top:0!important
+}
+
+.policy-info-days{
+    font-size: 30px;
+    margin: 0;
+}
+
+.policy-info-sup{
+    text-transform: uppercase;
+    font-size: 12px;
+    vertical-align: revert;
+}
+
+.policy-info{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.form-inline{
+    margin: 30px 0;
+}
+
+.searchField{
+    padding-left: 0;
+    padding-bottom: 0;
+    margin-top: 15px;
+    background-position: 100% 6px!important;
+    border-bottom: 1px solid #aaa;
+}
+
+.social-media-icons{
+    width: 14px;
+}
+.social-media-links{
+    margin-top: 40px;
+    text-align: right;
+}
+
+.social-media-icons{
+    margin-left: 10px;
+}

@@ -1,0 +1,234 @@
+/* You can add global styles to this file, and also import other style files */
+html, body{
+    background-color: #fff;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    font-family: 'PT Sans', sans-serif;
+}
+nav.navbar, .pt-font{
+    font-family: 'PT Serif', serif!important;
+}
+.m-0{
+    margin: 0!important;
+}
+.p-0{
+    padding:0!important
+}
+.armchair-logo {
+    width: 66px;
+    padding: 22px;
+    border-right: 1px solid #f2f2f2;
+}
+
+.cart{
+    width: 75px;
+    padding: 15px 30px;
+}
+.bg-light {
+    background-color: #fff!important;
+}
+
+
+nav .nav-link{
+    font-size: 14px;
+    padding: 15px 30px;
+    color:#999
+}
+
+.searchField{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #f2f2f2;
+    vertical-align: middle;
+    background-image: url('./assets/images/search-icon.png');
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    background-position: 100% 12px!important;
+    outline: none;
+    font-size: 14px!important;
+    padding: 3px 10px 10px 20px;
+    width: 100%;
+}
+
+.carousel{
+    background-image: url('./assets/images/slider-frame.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    margin-left: -15px;
+    border-top-right-radius: 20px;
+}
+
+.carousel-images{
+    width: 70%;
+    padding:28vh  50px 18vh 50px;
+    margin:auto
+}
+
+.carousel-indicators {
+    top: 20vh;
+    bottom: auto;
+}
+
+
+.carousel-indicators li{
+    background-color: #92bcb5;
+}
+
+.carousel-indicators li.active{
+    background-color: #ffc334;
+}
+
+.carousel-control-next-icon {
+    background-image: none;
+}
+
+.carousel-control-prev-icon {
+    background-image: none;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    opacity: 1;
+}
+.carousel-control-icons{
+    background: #fff;
+    border-radius: 50px;
+    padding: 15px;
+    width: 50px;
+}
+
+.carousel-control-prev{
+    left: -15px;
+}
+
+.carousel-control-next{
+    right: 15px;
+}
+
+.carousel-indicators li{
+    opacity: 1;
+}
+
+.item-name{
+    font-weight: 700;
+    font-size: 35px;
+    color: #777;
+    margin-top: 22px;
+    margin-bottom: 0;
+}
+
+.item-amount{
+    font-weight: 700;
+    font-size: 35px;
+    color: #777;
+}
+
+.item-type{
+    font-weight: 400;
+    font-size: 35px;
+    color: #777;
+    margin-top: 0;
+    line-height: 30px;
+}
+
+.item-code{
+    color:#777;
+    font-size: 12px;
+}
+
+.description{
+    padding: 30px 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.description-text{
+    font-size: 12px;
+    color:#777
+}
+.description-des{
+    color:#777;
+    font-size: 12px;    
+    line-height: 20px;
+    margin: 0;
+}
+
+.amount-strike{
+    font-size: 18px;
+    font-weight: 300;
+    vertical-align: middle;
+    display: -webkit-inline-box;
+}
+
+.description-text{
+    text-transform: uppercase;
+}
+
+.input-select{
+    padding: 10px 18px;
+    font-size: 12px;
+    margin-right: 20px;
+    background: #eff6ff;
+    border: 1px solid #eff6ff;
+}
+
+.themeButtons{
+    background-color:#76d2c3;
+    border: none;
+    padding:10px 20px;
+    color:#fff;
+    font-size: 12px;
+}
+
+.more-links-text{
+    font-size: 10px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.display-flex{    
+    display: flex
+}
+.item-attr{
+    margin: 12px 0;
+}
+
+
+/* home garden */
+
+.homegarden-logo{
+    width: 66px;
+    padding: 0px;
+
+}
+
+/* mobile responsive */
+@media screen  and (max-width : 991px){
+    .armchair-logo {
+        border:none
+    }
+    .carousel{
+        margin-left: auto;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    
+    
+    .carousel-images {
+        width: 100%;
+        padding: 20vh 50px 6vh 50px;
+        margin: auto;
+    }
+
+    .carousel-indicators{
+        top: 10vh;
+        bottom: auto;
+    }
+    .navbar {
+        position: absolute;
+        background: #fff;
+        z-index: 99;
+        width: 100%;
+    }
+}
